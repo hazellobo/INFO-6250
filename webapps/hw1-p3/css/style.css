@@ -1,0 +1,9 @@
+input, select{
+    background-color: #fee3ae;
+}
+
+legend{
+	background-color: #fea002;
+	color: white;
+	border: solid;
+}
