@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<books>  
+	<book>  
+		<name>Java Servlets</name>  
+		<author>Julien Pitt</author> 
+		<price>$80.78</price>
+	</book>  
+	<book>  
+		<name>Data Warehousing</name>  
+		<author>John Doe</author> 
+		<price>$67.55</price>
+	</book> 
+	<book>  
+		<name>Business Analytics</name>  
+		<author>Jane Doe</author> 
+		<price>$180</price>
+	</book>  
+        <book>  
+		<name>Java Server Pages</name>  
+		<author>John Doe</author> 
+		<price>$89.78</price>
+	</book>               
+</books>
+
+
+

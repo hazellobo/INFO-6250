@@ -1,0 +1,4 @@
+com\utils\movieapp\controller\MovieController.class
+com\utils\movieapp\dao\ConnectionDao.class
+com\utils\movieapp\model\Movie.class
+com\utils\movieapp\dao\MovieDao.class
