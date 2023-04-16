@@ -1,0 +1,17 @@
+body{
+	font-size:15px;
+}
+#boxed_section{
+	 padding: 10px; 
+     border: 1px solid black; 
+     margin: 10px;
+}
+
+h2{
+	color: red;
+}	
+
+.colored_div{
+	background-color:#e8e4dc;
+	color: #1c3a7b;
+}

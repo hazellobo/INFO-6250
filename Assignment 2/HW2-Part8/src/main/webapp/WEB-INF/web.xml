@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+     <servlet>
+    <servlet-name>Content</servlet-name>
+    <jsp-file>/tuitionwaiverForm.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Content</servlet-name>
+    <url-pattern>/viewForm</url-pattern>
+  </servlet-mapping>
+  <security-role>
+    <role-name>registered-user</role-name>
+  </security-role>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Sensitive</web-resource-name>
+      <url-pattern>/viewForm</url-pattern>
+      <url-pattern>/viewSubmittedData.htm</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>registered-user</role-name>
+    </auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/loginfail.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+  
+  <welcome-file-list>
+    <welcome-file>homepage.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+
