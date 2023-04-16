@@ -1,0 +1,2 @@
+com.utils.controller.AppConfig=org.springframework.stereotype.Component
+com.utils.controller.UtilityController=org.springframework.stereotype.Component
